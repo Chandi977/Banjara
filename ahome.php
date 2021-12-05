@@ -29,17 +29,17 @@ git push -u origin main
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Banjara Tour &amp; Travels</title>
 
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
 
     <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css"> -->
+    <link rel="stylesheet" href="js/fontawesome-free-6.0.0-beta3-web/css/all.min.css">
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="css/style1.css">
 
 </head>
 
@@ -521,8 +521,8 @@ git push -u origin main
     </section>
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script type="module" src="script.js"></script>
+    <script src="js/aos.js"></script>
+    <script type="module" src="js/script.js"></script>
 
 
     <!-- custom js file link  -->
@@ -547,9 +547,8 @@ git push -u origin main
         offset: 150,
     });
     </script>
-    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/glide.min.js"></script>
     <!-- Animate On Scroll -->
 
 
