@@ -5,6 +5,9 @@
 - This page can be handeled from Dashboard.
 ![Screenshot (42)](https://user-images.githubusercontent.com/55855799/144728233-1e632f56-e61e-42b1-980b-4ba3b0ba9465.png)
 -
+-
+![Screenshot (53)](https://user-images.githubusercontent.com/55855799/144728249-1da86793-9ffb-4103-a52d-045945e0ccb7.png)
+-
 ![Screenshot (43)](https://user-images.githubusercontent.com/55855799/144728234-80ac9eed-b8ea-4806-b304-be42529802ba.png)
 -
 ![Screenshot (44)](https://user-images.githubusercontent.com/55855799/144728235-4ce7d638-fd66-423b-a208-3cbfddff4fa4.png)
@@ -24,8 +27,7 @@
 ![Screenshot (51)](https://user-images.githubusercontent.com/55855799/144728245-0cb6219f-d7c0-40f9-a55a-fb6b02ef81d7.png)
 -
 ![Screenshot (52)](https://user-images.githubusercontent.com/55855799/144728246-57da01e1-0f69-45e9-a1d5-b35fd507d436.png)
--
-![Screenshot (53)](https://user-images.githubusercontent.com/55855799/144728249-1da86793-9ffb-4103-a52d-045945e0ccb7.png)
+
 -
 ![Screenshot (54)](https://user-images.githubusercontent.com/55855799/144728250-deedbcf1-221c-4b9e-ad22-75574349c784.png)
 -
