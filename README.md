@@ -1,6 +1,7 @@
 ﻿# The-Banjara-Tours-Travels
 
 - This is my first web based project and it is coded in HTML, CSS, SCSS, JAVASCRIPT, JQUERY, PHP, SQL.
+- Frame work i have used is Bootstrap, Fontawesome etc.
 - It has it's own Dashboard, where admin can check how much user is registered, how much customer are booking for packages, customer can get exciting packages handeled directly from admin Dashboard.
 - This page can be handeled from Dashboard.
 ![Screenshot (42)](https://user-images.githubusercontent.com/55855799/144728233-1e632f56-e61e-42b1-980b-4ba3b0ba9465.png)
