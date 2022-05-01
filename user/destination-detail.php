@@ -1,5 +1,23 @@
-<?php require 'helpers/setting.php';?>
+<?php
+session_start();
+$name = " ";
+$info = "";
+if (!isset($_SESSION['id'])) {
+  $name = '';
+//   echo "<script>alert('You must have to login first to do this task.'); window.location.href = '../ahome.php';</script>";
 
+  // header("location:../ahome.php");
+
+} else {
+  $id = $_SESSION['id'];
+//   $uname=$_SESSION['uname'];
+  $al = mysqli_connect("localhost", "root", "", "banjara tour and travel");
+  $a = mysqli_query($al, "SELECT * FROM customers WHERE id='$id'");
+  $b = mysqli_fetch_array($a);
+  $name = $b['name'];
+  $email=$b['email'];
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -326,22 +344,14 @@
                                     <div class="tr-single-body">
 
                                         <ul class="simple-features-list">
-                                            <li>Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-                                                nesciunt.</li>
-                                            <li>Minima veniam, quis nostrum exercitationem ullam corporis suscipit
-                                                laboriosam.</li>
-                                            <li>But I must explain to you how all this mistaken idea of denouncing
-                                                pleasure and praising pain.</li>
-                                            <li>Pain can procure him some great pleasure. To take a trivial example,
-                                                which of us ever undertakes.</li>
-                                            <li>Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-                                                nesciunt.</li>
-                                            <li>Minima veniam, quis nostrum exercitationem ullam corporis suscipit
-                                                laboriosam.</li>
-                                            <li>But I must explain to you how all this mistaken idea of denouncing
-                                                pleasure and praising pain.</li>
-                                            <li>Pain can procure him some great pleasure. To take a trivial example,
-                                                which of us ever undertakes.</li>
+                                            <li>Beautiful Designs that are a Sight to the Eyes.</li>
+                                            <li>Luxurious Rooms with Elegance to the Core.</li>
+                                            <li>Amazing Beds for Unmatched Comfort.</li>
+                                            <li>Suite Facilities for Premium Staying Experience.</li>
+                                            <li>Conference and Event Facilities for Successful Meetings.</li>
+                                            <li>In-house Restaurants with Delicacies of theWorld.</li>
+                                            <li>Source of Entertainment for Full-time Amusement.</li>
+                                            <li>Spa Facilities to Rejuvenate and Relax.</li>
                                         </ul>
 
                                     </div>
@@ -746,11 +756,11 @@
                                             <label>Room</label>
                                             <div class="sl-side">
                                                 <select class="wide form-control" name="room">
-                                                    <option data-display="Room">1</option>
-                                                    <option value="1">2</option>
-                                                    <option value="2">3</option>
-                                                    <option value="3">4</option>
-                                                    <option value="4">5</option>
+                                                    <option data-display="Room">Room</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
                                                     <option value="4">5</option>
                                                 </select>
                                             </div>
@@ -761,11 +771,11 @@
                                             <label>Night</label>
                                             <div class="sl-side">
                                                 <select class="wide form-control" name="night">
-                                                    <option data-display="Night">1</option>
-                                                    <option value="1">2</option>
-                                                    <option value="2">3</option>
-                                                    <option value="3">4</option>
-                                                    <option value="4">5</option>
+                                                    <option data-display="Night">Night</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
                                                     <option value="4">5</option>
                                                 </select>
                                             </div>

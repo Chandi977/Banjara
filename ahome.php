@@ -32,7 +32,7 @@ git push -u origin main
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
 
     <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/aos.css">
 
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css"> -->
@@ -54,8 +54,8 @@ git push -u origin main
             <div id="nav-close" class="fas fa-times"></div>
             <a href="#home">home</a>
             <a href="user/destination-grid.php">destination</a>
-            <a href="#category">category</a>
-            <a href="user/booking-1.php">book</a>
+            <a href="user/booking-1.php">cart</a>
+            <a href="user/blog.php">blog</a>
             <a href="user/services.php">services</a>
             <!-- <a href="#gallery">gallery</a> -->
         </nav>
@@ -136,7 +136,7 @@ git push -u origin main
                             <h3>exploring</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta
                                 consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
-                            <a href="#" class="btn">get started</a>
+                            <a href="user\destination-grid.php" class="btn">get started</a>
                         </div>
                     </div>
                 </div>
@@ -497,11 +497,11 @@ git push -u origin main
 
             </div>
 
-            <div class="box">
+            <div class="box" style="background:transparent; box-shadow:none;">
                 <h3>contact info</h3>
-                <a href="#"> <i class="fas fa-phone"></i> +91 8757059888 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +91 6202119002 </a>
                 <a href="#"> <i class="fas fa-phone"></i> +91 6200072536 </a>
-                <a href="#"> <i class="fas fa-envelope"></i> pappumahato000@gmail.com </a>
+                <a href="#"> <i class="fas fa-envelope"></i> sujitkumar6207@gmail.com </a>
                 <a href="#"> <i class="fas fa-map"></i> Adityapur, Jamshedpur, Jharkhand </a>
             </div>
 
@@ -516,7 +516,7 @@ git push -u origin main
 
         </div>
 
-        <div class="credit">created by <span>Chandi Charan Mahato</span> | all rights reserved!</div>
+        <div class="credit">created by <span>Sujeet Kumar</span> | all rights reserved!</div>
 
     </section>
 

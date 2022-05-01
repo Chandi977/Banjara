@@ -1,13 +1,13 @@
 <header class="header">
 
-    <a href="ahome.php" class="logo"><i class="fas fa-hiking"></i> Banjara Tours </a>
+    <a href="../ahome.php" class="logo"><i class="fas fa-hiking"></i> Banjara Tours </a>
 
     <nav class="navbar">
         <div id="nav-close" class="fas fa-times"></div>
         <a href="../ahome.php">home</a>
         <a href="destination-grid.php">destination</a>
-        <a href="#category">category</a>
-        <a href="booking-1.php">book</a>
+        <a href="booking-1.php">cart</a>
+        <a href="blog.php">blog</a>
         <a href="services.php">services</a>
         <!-- <a href="#gallery">gallery</a> -->
     </nav>
@@ -21,10 +21,8 @@
         </a>
         <?php
 			if (isset($_SESSION['email'])) {
-			    // echo '<i id="login-btn">' . $name . '</i>';
-				echo '<a href="user/logout.php" class="fas fa-sign-out-alt"></a>';
+				echo '<a href="logout.php" class="fas fa-sign-out-alt"></a>';
 			} else {
-				// echo '<i class="fas fa-user" id="login-btn"></i>';
 				echo '<a href="#" class="fas fa-user" id="login-btn"></a>';
 			} 
 		?>

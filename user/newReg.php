@@ -10,6 +10,9 @@ if (isset($_POST['sub'])) {
 	if ($n != NULL && $e != NULL && $c != NULL && $_POST['pass'] != NULL) {
 		$sql = mysqli_query($al, "INSERT INTO customers(name,email,contact,password) VALUES('$n','$e','$c','$p')");
 		if ($sql) {
+			$fetch = mysqli_query($al, "Select * from customers where name=$n, password = $p");
+			$fetchdata= mysqli_fetch_array($fetch);
+			$createdb = mysqli_query($al,"CREATE TABLE $n(PersonID int,LastName varchar(255),FirstName varchar(255),Address varchar(255),City varchar(255))");
 			echo '<script>confirm("Account Created Successfully.");</script>';
             echo"<script>window.location.href = '../ahome.php';</script>";
 			// echo "<script> alert('Welcome $n');

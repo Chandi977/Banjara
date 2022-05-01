@@ -25,8 +25,8 @@
 $('#checkin').daterangepicker({
     "singleDatePicker": true,
     "timePicker": true,
-    "startDate": "12/12/2018",
-    "endDate": "12/14/2018"
+    "startDate": "1/1/2022",
+    "endDate": "1/1/2022"
 }, function(start, end, label) {
     console.log('New date range selected: ' + start.format('YYYY-MM-DD') + ' to ' + end.format(
         'YYYY-MM-DD') + ' (predefined range: ' + label + ')');
@@ -37,8 +37,8 @@ $('#checkin').daterangepicker({
 $('#checkout').daterangepicker({
     "singleDatePicker": true,
     "timePicker": true,
-    "startDate": "12/18/2018",
-    "endDate": "12/18/2018"
+    "startDate": "10/1/2022",
+    "endDate": "10/1/2022"
 }, function(start, end, label) {
     console.log('New date range selected: ' + start.format('YYYY-MM-DD') + ' to ' + end.format(
         'YYYY-MM-DD') + ' (predefined range: ' + label + ')');
