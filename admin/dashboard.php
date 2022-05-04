@@ -381,7 +381,7 @@
                                      <a href="#"><i class="fab fa-twitter"></i></a>
                                      <h4 class="ticket__movie-title">Sujeet Kumar</h4>
                                      <p class="ticket__movie-slogan">
-                                         Web Developer
+                                         Web / Software Developers
                                      </p>
                                      <ul>
                                          <!-- <li>University : Netaji Subhas University,Jamshedpur</li> -->

@@ -43,10 +43,10 @@ if (isset($_POST["sub"])) {
 				<div class="profilebox"></div>
 			</div>
 			<div class="img-div">
-				<img src="../images/admin.png" alt="...">
+				<img src="../images/sujeet.jpeg" alt="...">
 				<div class="welcome-text">
 					<h2>Welcome</h2>
-					<h6>Chandi Charan Mahato</h6>
+					<h6>Sujeet Kumar</h6>
 				</div>
 			</div>
 			<div class="user-des">

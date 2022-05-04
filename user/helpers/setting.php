@@ -5,6 +5,7 @@ $info = "";
 if (!isset($_SESSION['id'])) {
   $name = '';
   echo "<script>alert('You must have to login first to do this task.'); window.location.href = '../ahome.php';</script>";
+
   // header("location:../ahome.php");
 
 } else {

@@ -133,12 +133,12 @@ $maintotal = $perc+$totalamount;
                                             <div class="row">
                                                 <div class="col-lg-7 col-md-7 col-sm-7">
 
-                                                    <h4>Chandi Charan Mahato: </h4>
+                                                    <h4>Sujeet Kumar: </h4>
                                                     <h5>The Banjara Tours And Travel</h5>
                                                     <p>
-                                                        info@TBTAT.charan.com<br />
+                                                        info@TBTAT.Sujeet.com<br />
 
-                                                        +91-8757059888<br />
+                                                        +91-6202119002<br />
 
                                                         Adityapur, Jamshedpur, Jharkhand
                                                         <br /> India
