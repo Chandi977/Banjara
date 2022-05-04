@@ -83,7 +83,7 @@ header("location:../ahome.php");
                         echo "<script> window.location.href = '../invoice.php?id=$footemp';
 			</script>";
                 } else{
-                        header("location:404.html");
+                        header("location:../404.html");
                 }
 	}
          
