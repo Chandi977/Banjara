@@ -11,5 +11,5 @@
 <link href="assets/css/style.css" rel="stylesheet">
 <!-- <link href="assets/css/responsiveness.css" rel="stylesheet"> -->
 <!-- <link id="jssDefault" rel="stylesheet" href="assets/css/skins/default.css"> -->
-<link rel="stylesheet" href="../style1.css">
+<link rel="stylesheet" href="../css/style1.css">
 <link href="assets/css/responsiveness.css" rel="stylesheet">

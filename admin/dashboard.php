@@ -385,7 +385,7 @@
                                      </p>
                                      <ul>
                                          <!-- <li>University : Netaji Subhas University,Jamshedpur</li> -->
-                                         <li>University Roll : 0000000</li>
+                                         <li>University Roll : 1903060</li>
                                          <li>Stream : BCA</li>
                                          <li>Session : 2019-22</li>
                                      </ul>
