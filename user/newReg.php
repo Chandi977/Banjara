@@ -28,7 +28,7 @@ if (isset($_POST['sub'])) {
 		}
 	} else {
 		$info = "Email or Password is required and not be empty.";
-		header("location:404.html");
+		header("location:../404.html");
 	}
 }
 ?>
