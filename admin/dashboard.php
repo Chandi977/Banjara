@@ -381,10 +381,10 @@
                                      <a href="#"><i class="fab fa-twitter"></i></a>
                                      <h4 class="ticket__movie-title">Sujeet Kumar</h4>
                                      <p class="ticket__movie-slogan">
-                                         Web / Software Developers
+                                         Web/Software Developers
                                      </p>
                                      <ul>
-                                         <!-- <li>University : Netaji Subhas University,Jamshedpur</li> -->
+                                         <li>University : Netaji Subhas University,Jamshedpur</li>
                                          <li>University Roll : 1903060</li>
                                          <li>Stream : BCA</li>
                                          <li>Session : 2019-22</li>
@@ -407,8 +407,9 @@
                                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
                                      <a href="#"><i class="fab fa-twitter"></i></a>
                                      <h4 class="ticket__movie-title">Chandi Charan Mahato</h4>
-                                     <p class="ticket__movie-slogan">Web / Software Developers</p>
+                                     <p class="ticket__movie-slogan">Web/Software Developers</p>
                                      <ul>
+                                         <li>University : Netaji Subhas University,Jamshedpur</li>
                                          <li>University Roll : 1903016</li>
                                          <li>Stream : BCA</li>
                                          <li>Session : 2019-22</li>
@@ -431,8 +432,9 @@
                                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
                                      <a href="#"><i class="fab fa-twitter"></i></a>
                                      <h4 class="ticket__movie-title">Rohit Kumar</h4>
-                                     <p class="ticket__movie-slogan">Web / Software Developers</p>
+                                     <p class="ticket__movie-slogan">Web/Software Developers</p>
                                      <ul>
+                                         <li>University : Netaji Subhas University,Jamshedpur</li>
                                          <li>University Roll : 1903051</li>
                                          <li>Stream : BCA</li>
                                          <li>Session : 2019-22</li>
