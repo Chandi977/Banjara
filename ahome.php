@@ -510,7 +510,7 @@ if (!isset($_SESSION['id'])) {
 
         </div>
 
-        <div class="credit">created by <span>Sujeet Kumar</span> | all rights reserved!</div>
+        <div class="credit">created by <span>Chandi, Sujeet, Rohit</span> | all rights reserved!</div>
 
     </section>
 

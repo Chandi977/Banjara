@@ -133,12 +133,12 @@ $maintotal = $perc+$totalamount;
                                             <div class="row">
                                                 <div class="col-lg-7 col-md-7 col-sm-7">
 
-                                                    <h4>Sujeet Kumar: </h4>
+                                                    <h4>Banjara Admins: </h4>
                                                     <h5>The Banjara Tours And Travel</h5>
                                                     <p>
-                                                        info@TBTAT.Sujeet.com<br />
+                                                        info@TBTAT.admin.com<br />
 
-                                                        +91-6202119002<br />
+                                                        +91-12344567890<br />
 
                                                         Adityapur, Jamshedpur, Jharkhand
                                                         <br /> India
