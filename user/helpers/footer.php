@@ -24,9 +24,9 @@
 
             <div class="box" style="background:transparent; box-shadow:none;">
                 <h3>contact info</h3>
-                <a href="#"> <i class="fas fa-phone"></i> +91 6202119002 </a>
-                <a href="#"> <i class="fas fa-phone"></i> +91 6200072536 </a>
-                <a href="#"> <i class="fas fa-envelope"></i> sujitkumar6207@gmail.com </a>
+                <a href="#"> <i class="fas fa-phone"></i> +91 1234567890 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +91 1234567890 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> banjaraAdmin@gmail.com </a>
                 <a href="#"> <i class="fas fa-map"></i> Adityapur, Jamshedpur, Jharkhand </a>
             </div>
 
