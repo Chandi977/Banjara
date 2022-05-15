@@ -10,28 +10,18 @@ if (isset($_POST['sub'])) {
 	if ($n != NULL && $e != NULL && $c != NULL && $_POST['pass'] != NULL) {
 		$sql = mysqli_query($al, "INSERT INTO customers(name,email,contact,password) VALUES('$n','$e','$c','$p')");
 		if ($sql) {
-			$fetch = mysqli_query($al, "Select * from customers where name=$n, password = $p");
-			$fetchdata= mysqli_fetch_array($fetch);
-			$createdb = mysqli_query($al,"CREATE TABLE $n(PersonID int,LastName varchar(255),FirstName varchar(255),Address varchar(255),City varchar(255))");
-			echo '<script>confirm("Account Created Successfully.");</script>';
-            echo"<script>window.location.href = '../ahome.php';</script>";
-			// echo "<script> alert('Welcome $n');
-			// window.setTimeout(function(){
-			// 	window.location.href = '../ahome.php';
-			// }, 3000);
-			// </script>";
-
-
-			// echo '<script>setTimeout(function(){ ' header("location:../ahome.php"); ' }, 3000);</script>'
-			
+			echo '<script>confirm("Account Created Successfully.  Welcome '.$n.'"); window.location.href = "../ahome.php";</script>';
 		} else {
 			echo '<script>confirm("Email Id is already taken.");</script>';
-			$info = "Email ID Already Exists";
+			// $info = "Email ID Already Exists";
 			header("location:../ahome.php");
 		}
 	} else {
-		$info = "Email or Password is required and not be empty.";
-		header("location:../404.html");
+		echo "
+		<script>confirm('Email or Password is required and not be empty.'); 
+			window.location.href = '../ahome.php';
+		</script>";
+		// header("location:../404.html");
 	}
 }
 ?>

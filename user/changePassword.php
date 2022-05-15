@@ -1,19 +1,15 @@
 <?php
-session_start();
-$email = $_SESSION['email'];
-if (!isset($_SESSION['email'])) {
-	header("location:../ahome.php");
-}
-$info = "";
+$info='';
 if (isset($_POST['sub'])) {
-	
+    $al = mysqli_connect("localhost", "root", "", "banjara tour and travel");
+    $email = $_POST['email'];
 	$a = mysqli_query($al, "SELECT * FROM customers WHERE email='$email'");
 	$b = mysqli_fetch_array($a);
 	$name = $b['name'];
 	$pass = $b['password'];
-	$old = sha1($_POST['old']);
-	$p1 = sha1($_POST['p1']);
-	$p2 = sha1($_POST['p2']);
+	$old = $_POST['old'];
+	$p1 = $_POST['p1'];
+	$p2 = $_POST['p2'];
 	if ($_POST['old'] == NULL || $_POST['p1'] == NULL || $_POST['p2'] == NULL) {
 		echo "<script> alert('Form connat be null');
 				window.location.href = 'changePassword.php';
@@ -28,10 +24,17 @@ if (isset($_POST['sub'])) {
 				window.location.href = 'changePassword.php';
 			  </script>";
 		} else {
-			mysqli_query($al, "UPDATE customer SET password='$p2' WHERE aid='$aid'");
-			echo "<script> alert('Password is changed Successfully');
+            if (mysqli_query($al, "UPDATE customers SET password ='$p2' WHERE email='$email'")) {
+                echo "<script> alert('Password is changed Successfully');
+				window.location.href = '../ahome.php';
+			  </script>";
+            }else {
+                echo "<script> alert('Something went wrong..');
 				window.location.href = 'changePassword.php';
 			  </script>";
+            }
+			// mysqli_query($al, "UPDATE customers SET password ='$p2' WHERE email='$email'");
+			
 		}
 	}
 }
@@ -177,18 +180,23 @@ if (isset($_POST['sub'])) {
                     <td colspan="2" class="info" align="center"><?php echo $info; ?></td>
                 </tr>
                 <tr>
+                    <td class="labels">Email :</td>
+                    <td><input type="email" name="email" size="25" class="fields" placeholder="example@gmail.com"
+                            required="required" /></td>
+                </tr>
+                <tr>
                     <td class="labels">Old Password :</td>
-                    <td><input type="password" name="old" size="25" class="fields" placeholder="Enter Old Password"
+                    <td><input type="password" name="old" size="25" class="fields" placeholder="1234567890"
                             required="required" /></td>
                 </tr>
                 <tr>
                     <td class="labels">New Password :</td>
-                    <td><input type="password" name="p1" size="25" class="fields" placeholder="Enter New Password"
+                    <td><input type="password" name="p1" size="25" class="fields" placeholder="1234567890"
                             required="required" /></td>
                 </tr>
                 <tr>
                     <td class="labels">Re-Type Password :</td>
-                    <td><input type="password" name="p2" size="25" class="fields" placeholder="Re-Type New Password"
+                    <td><input type="password" name="p2" size="25" class="fields" placeholder="1234567890"
                             required="required" /></td>
                 </tr>
                 <tr>

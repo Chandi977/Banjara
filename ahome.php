@@ -15,12 +15,6 @@ if (!isset($_SESSION['id'])) {
 ?>
 
 
-<!-- 
-git remote add origin https://github.com/Chandi977/The-Banjara-Tours-Travels.git
-git branch -M main
-git push -u origin main 
--->
-
 <!DOCTYPE html>
 <html lang="en">
 

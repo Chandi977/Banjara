@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 08, 2022 at 07:32 AM
+-- Generation Time: May 04, 2022 at 04:18 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.10
 
@@ -100,7 +100,13 @@ INSERT INTO `cart` (`id`, `name`, `hotelid`, `email`, `checkin`, `checkout`, `ad
 (23, 'Chandi', 21, 'abc@gmail.com', '01/26/2022', '02/03/2022', 2, 1, 1, 8, 'Free Parking,Free Wifi', 'Delhi', 'Red Fort', 23730, 0),
 (24, 'Chandi', 5, 'abc@gmail.com', '12/23/2021', '12/20/2021', 2, 0, 1, 3, 'Luxury Bedding,Free Wifi', 'Jammu & Kashmir', 'Ladakh', 9030, 0),
 (25, 'Chandi', 2, 'abc@gmail.com', '12/12/2018', '12/18/2018', 2, 0, 1, 6, 'Free Parking,Free Wifi', 'Goa', ' Palolem Beach', 32755, 0),
-(26, 'Chandi', 1, 'abc@gmail.com', '01/04/2022', '02/01/2022', 4, 0, 1, 28, 'Satellite TV,Coffeemaker,Free Parking,Free Wifi', 'Maharashtra', 'Mumbai', 147602, 0);
+(26, 'Chandi', 1, 'abc@gmail.com', '01/04/2022', '02/01/2022', 4, 0, 1, 28, 'Satellite TV,Coffeemaker,Free Parking,Free Wifi', 'Maharashtra', 'Mumbai', 147602, 0),
+(27, 'Chandi', 2, 'abc@gmail.com', '02/13/2022', '10/20/2022', 2, 0, 1, 249, 'Satellite TV,Free Wifi', 'Goa', ' Palolem Beach', 1614430, 0),
+(28, 'Chandi', 2, 'abc@gmail.com', '02/20/2022', '02/28/2022', 2, 0, 1, 8, 'Satellite TV,Free Wifi', 'Goa', ' Palolem Beach', 45773, 0),
+(29, '', 1, '', '01/01/2022', '10/01/2022', 1, 0, 0, 273, 'Satellite TV,Luxury Bedding', 'Maharashtra', 'Mumbai', 1485044, 0),
+(30, '', 2, '', '05/25/2022', '06/14/2022', 4, 0, 1, 20, 'Satellite TV,Luxury Bedding', 'Goa', ' Palolem Beach', 123880, 0),
+(31, 'Chandi', 2, 'abc@gmail.com', '06/13/2022', '06/30/2022', 4, 0, 1, 17, 'Satellite TV,Coffeemaker', 'Goa', ' Palolem Beach', 104353, 0),
+(32, 'Chandi', 2, 'abc@gmail.com', '06/13/2022', '07/13/2022', 2, 0, 1, 30, 'Satellite TV', 'Goa', ' Palolem Beach', 188970, 0);
 
 -- --------------------------------------------------------
 
@@ -172,7 +178,8 @@ INSERT INTO `holiday` (`id`, `name`, `subdesti`, `amount`, `hotelcharge`, `guide
 (3, 'West Bengal', 'Kolkata', 3000, 2000, 200, 1234567890, 'kolkataTBTaT@gmail.com', 'data/kolkata.png', '', 3.5, 'The former British capital of India, Kolkata, is known for its artistic brilliance, exceptional architecture, and legendary literary landscape. ... Fondly called the \'City of Joy\', it encapsulates the essence\r\n                    of Eastern India. Here are some of the most famous places in Kolkata which have Historical significance.', ''),
 (5, 'Jammu & Kashmir', 'Ladakh', 3000, 4000, 200, 1234567890, 'ladakhTBTaT@gmail.com', 'data/ladakh.png', '', 5, 'Ladakh is most famous for breathtaking landscapes, the crystal clear skies, the highest mountain passes, thrilling adventure activities, Buddhist Monasteries and festivals. ... Ladakh gains a lot of popularity\r\n                    for being the only cold desert in India apart from bordering the World\'s highest saltwater Lake Pangong Lake.', ''),
 (6, 'Himachal Pradesh', 'Manali', 3000, 3300, 200, 1234567890, 'manaliTBTaT@gmail.com', 'data/manali.png', '', 4, 'Manali is famous for being India\'s honeymoon capital. It is situated between the snow-capped slopes of the Pir Panjal and Dhauladhar ranges and offers stunning views of lush green forests, green meadows, and meandering blue streams. Kullu Manali hotels can be booked with ease by going online this summer.', ''),
-(21, 'Delhi', 'Red Fort', 3000, 3000, 200, 1234567890, 'delhiTBTaT@gmail.com', 'data/delhi.png', '', 4.5, 'Delhi was the Capital city of the Mughal rulers and the British as well. ... Delhi also has shopping markets in some of the historically important places. Chandni Chowk, for instance, leaves visitors awestruck with its numerous hidden gems. Furthermore, Delhi is also famous for its street shops and street food as well.', '');
+(21, 'Delhi', 'Red Fort', 3000, 3000, 200, 1234567890, 'delhiTBTaT@gmail.com', 'data/delhi.png', '', 4.5, 'Delhi was the Capital city of the Mughal rulers and the British as well. ... Delhi also has shopping markets in some of the historically important places. Chandni Chowk, for instance, leaves visitors awestruck with its numerous hidden gems. Furthermore, Delhi is also famous for its street shops and street food as well.', ''),
+(33, 'Chennai', '', 2599, 0, 0, 0, '', 'data/chennai.png', '', 0, '', '');
 
 -- --------------------------------------------------------
 
@@ -213,7 +220,10 @@ INSERT INTO `invoice` (`id`, `userbookingid`, `transactiondate`, `billname`, `bi
 (12, 23, '2021-12-05', 'Chandi', 'abc@gmail.com', '1234567890', 'abc', 'xyz', 'mnp', 'klm', '1212', '1212@gmail.com', NULL, NULL, NULL, NULL, NULL, 23730, 1),
 (13, 24, '2021-12-06', 'Aditya', 'aditya@gmail.com', '12312312', 'adityapur', 'JAmshedpur', 'Jharkhand', 'India', '831013', '1234@oksbi', NULL, NULL, NULL, NULL, NULL, 9030, 1),
 (14, 25, '2021-12-06', 'Chandi', 'Chandi@gmail.com', '13243', 'adityapur', 'Jamshedpur', 'Jharkhand', 'India', '831013', '123334@oksbi', NULL, NULL, NULL, NULL, NULL, 32755, 1),
-(15, 26, '2021-12-09', 'Chandi', 'pappumahato000@gmail.com', '7632479543', 'jasvdkhasgd', 'gfsddfd', 'fgdfdgdf', 'dfdfgfdgdf', 'gfdg', '1234@gmail.com', NULL, NULL, NULL, NULL, NULL, 147602, 1);
+(15, 26, '2021-12-09', 'Chandi', 'pappumahato000@gmail.com', '7632479543', 'jasvdkhasgd', 'gfsddfd', 'fgdfdgdf', 'dfdfgfdgdf', 'gfdg', '1234@gmail.com', NULL, NULL, NULL, NULL, NULL, 147602, 1),
+(16, 28, '2022-02-07', 'Suvendu Mahato', 'acbdg@gmail.com', '9652293196', 'AXDS', 'Jamshedpur', 'Jharkhand', 'India', '831013', '321314314@gmail.com', NULL, NULL, NULL, NULL, NULL, 45773, 1),
+(17, 31, '2022-05-04', 'hgfhg', 'ghhgchgcg@gmail.com', '87587', 'gfxgfx', 'hggcgc', 'hggjgxc', 'fgcghc', '986986', 'hgfgfcfg', NULL, NULL, NULL, NULL, NULL, 104353, 1),
+(18, 32, '2022-05-04', 'vfdvdfdv', 'abc@gmail.com', '980475', 'fbdfv', 'vdsvdf', 'dfvdsvv', 'vfvdsvds', '34534532', NULL, 'rfewrfed', '32413413534', '34', '2025', '453', 188970, 1);
 
 -- --------------------------------------------------------
 
@@ -292,7 +302,7 @@ ALTER TABLE `bookings`
 -- AUTO_INCREMENT for table `cart`
 --
 ALTER TABLE `cart`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 
 --
 -- AUTO_INCREMENT for table `customers`
@@ -304,13 +314,13 @@ ALTER TABLE `customers`
 -- AUTO_INCREMENT for table `holiday`
 --
 ALTER TABLE `holiday`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 
 --
 -- AUTO_INCREMENT for table `invoice`
 --
 ALTER TABLE `invoice`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- AUTO_INCREMENT for table `reviewtable`

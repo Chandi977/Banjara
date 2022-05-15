@@ -23,11 +23,16 @@ if (isset($_POST['sub'])) {
 			window.location.href = '../ahome.php';
 		</script>";
 		}
+	}else {
+		echo "<script> confirm('Username or Password must be filled properly.');
+			window.location.href = '../ahome.php';
+		</script>";
 	}
 }
 
 ?>
 
 <html>
+<!-- http://localhost/banjara/user/custlogin.php?email=abc%40gmail.com&pass=12345&sub=login+now -->
 
 </html>

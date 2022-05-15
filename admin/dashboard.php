@@ -417,6 +417,30 @@
                                  </div>
                              </div>
                          </div>
+                         <div class="main-container">
+                             <div class="poster-container">
+                                 <a href="#"><img src="../images/001.jpg" class="poster" /></a>
+                             </div>
+                             <div class="social-icons">
+
+                             </div>
+                             <div class="ticket-container">
+                                 <div class="ticket__content">
+                                     <a href="#"><i class="fab fa-instagram"></i></a>
+                                     <a href="#"> <i class="fab fa-github"></i></a>
+                                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                     <a href="#"><i class="fab fa-twitter"></i></a>
+                                     <h4 class="ticket__movie-title">Chandi Charan Mahato</h4>
+                                     <p class="ticket__movie-slogan">Web / Software Developers</p>
+                                     <ul>
+                                         <li>University Roll : 1903051</li>
+                                         <li>Stream : BCA</li>
+                                         <li>Session : 2019-22</li>
+                                     </ul>
+
+                                 </div>
+                             </div>
+                         </div>
                      </div>
                  </div>
              </div>

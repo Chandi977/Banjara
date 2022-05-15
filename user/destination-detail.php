@@ -1004,8 +1004,6 @@ if (!isset($_SESSION['id'])) {
     <?php include 'helpers/footer.php';?>
 
     <!-- ================= footer end ========================= -->
-
-
     <script>
     $("#checkin").datepicker({
         dateFormat: "yy-mm-dd"
