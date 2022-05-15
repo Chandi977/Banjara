@@ -6,6 +6,3 @@ echo "
 			window.location.href = '../ahome.php';
 	</script>";
 ?>
-<html>
-
-</html>

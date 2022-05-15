@@ -45,7 +45,7 @@ if (isset($_POST["sub"])) {
                 <div class="profilebox"></div>
             </div>
             <div class="img-div">
-                <img src="../images/sujeet.jpeg" alt="...">
+                <img src="../images/user.png" alt="...">
                 <div class="welcome-text">
                     <h2>Welcome</h2>
                     <h6>Admins</h6>

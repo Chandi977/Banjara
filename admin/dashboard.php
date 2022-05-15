@@ -338,7 +338,7 @@
                      <span class="inputPassIcon">
                          <i class="fas fa-rupee-sign"></i>
                      </span>
-                     <input type="password" name="amount" class="pass" placeholder="Amount" />
+                     <input type="number" name="amount" class="pass" placeholder="Amount" />
                  </form>
                  <h2 class="table-head"> <span class="subHead">Current Holiday Packages<br /></span><br /></h2>
                  <div class="table-show" id="sWrapper">
@@ -462,6 +462,8 @@
                              <input type="submit" name="sub" value="Change Password" class="fields">
                          </form>
                      </div>
+                     <!-- <button class="btn btn-primary">Logout</button> -->
+                     <a href="logoutadmin.php"><button class="btn btn-primary">Logout</button></a>
                  </div>
              </div>
          </div>
