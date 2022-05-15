@@ -419,7 +419,7 @@
                          </div>
                          <div class="main-container">
                              <div class="poster-container">
-                                 <a href="#"><img src="../images/001.jpg" class="poster" /></a>
+                                 <a href="#"><img src="../images/rohit.png" class="poster" /></a>
                              </div>
                              <div class="social-icons">
 
@@ -430,7 +430,7 @@
                                      <a href="#"> <i class="fab fa-github"></i></a>
                                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
                                      <a href="#"><i class="fab fa-twitter"></i></a>
-                                     <h4 class="ticket__movie-title">Chandi Charan Mahato</h4>
+                                     <h4 class="ticket__movie-title">Rohit Kumar</h4>
                                      <p class="ticket__movie-slogan">Web / Software Developers</p>
                                      <ul>
                                          <li>University Roll : 1903051</li>
