@@ -1,5 +1,3 @@
-<?php require 'helpers/setting.php';?>
-
 <!DOCTYPE html>
 <html lang="en">
 

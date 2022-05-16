@@ -61,7 +61,7 @@ $(document).ready(function() {
     $('#styleOptions').styleSwitcher();
 });
 </script>
-<script type="module" src="../script.js"></script>
+<script type="module" src="../js/script.js"></script>
 <script>
 const loginBtn = document.getElementById('login');
 const registerBtn = document.getElementById('register');

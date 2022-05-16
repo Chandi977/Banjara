@@ -1,32 +1,33 @@
 <header class="header">
-
     <a href="../ahome.php" class="logo"><i class="fas fa-hiking"></i> Banjara Tours </a>
-
-    <nav class="navbar">
-        <div id="nav-close" class="fas fa-times"></div>
-        <a href="../ahome.php">home</a>
-        <a href="destination-grid.php">destination</a>
-        <a href="booking-1.php">cart</a>
-        <a href="blog.php">blog</a>
-        <a href="services.php">services</a>
-        <!-- <a href="#gallery">gallery</a> -->
-    </nav>
-
+    <div class="nav">
+        <nav class="navbar">
+            <div id="nav-close" class="fas fa-times"></div>
+            <a href="../ahome.php">home</a>
+            <a href="destination-grid.php">destination</a>
+            <a href="booking-1.php">cart</a>
+            <a href="blog.php">blog</a>
+            <a href="services.php">services</a>
+            <!-- <a href="#gallery">gallery</a> -->
+        </nav>
+    </div>
 
     <div class="icons">
         <a href="#" id="menu-btn" class="fas fa-bars"></a>
         <a href="#" id="search-btn" class="fas fa-search"></a>
         <a href="#">
-            <?php echo $name ?>
+            <?php 
+                $name = " ";
+                echo $name 
+            ?>
         </a>
         <?php
 			if (isset($_SESSION['email'])) {
-				echo '<a href="logout.php" class="fas fa-sign-out-alt"></a>';
+				echo '<a href="logout.php" class="fas fa-sign-out-alt"> Logout</a>';
 			} else {
 				echo '<a href="#" class="fas fa-user" id="login-btn"></a>';
 			} 
 		?>
-
     </div>
 </header>
 

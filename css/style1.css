@@ -136,7 +136,7 @@ section {
   align-items: center;
 }
 
-.header.active {
+.header .active {
   background: #fff;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }

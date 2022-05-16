@@ -15,7 +15,7 @@ if (isset($_POST['sub'])) {
 			$_SESSION["id"] = $row[0];
 			$_SESSION["name"] = $row[1];
 			$_SESSION["email"] = $row[2];
-			echo "<script> alert('Welcome $row[1]');
+			echo "<script> 
 				window.location.href = '../ahome.php';
 			</script>";
 		} else {
