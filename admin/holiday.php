@@ -5,7 +5,7 @@ if (!isset($_SESSION['aid'])) {
 } else {
 	$conn = mysqli_connect("localhost", "root", "", "banjara tour and travel");
 	$aid = $_SESSION['aid'];
-	$info = "";
+	$info = " ";
 	if (isset($_POST['sub'])) {
 		$a = mysqli_query($conn, "SELECT * FROM admin WHERE aid='$aid'");
 		$b = mysqli_fetch_array($a);
