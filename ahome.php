@@ -58,16 +58,17 @@ if (!isset($_SESSION['id'])) {
         <div class="icons">
             <a href="#" id="menu-btn" class="fas fa-bars"></a>
             <a href="#" id="search-btn" class="fas fa-search"></a>
-            <a href="#" class="fa-solid fa-user login-name"> <?php echo $name ?></a>
+            <a href="#"> <?php echo $name ?></a>
             <?php
                 if (isset($_SESSION['email'])) {
                     // echo '<i id="login-btn">' . $name . '</i>';
                     echo '<a href="user/logout.php" class="fas fa-sign-out-alt"> Logout</a>';
                 } else {
                     // echo '<i class="fas fa-user" id="login-btn"></i>';
-                    echo '<a href="#" class="fas fa-user" id="login-btn"></a>';
+                    echo '<a href="#" class="fa-solid fa-user" id="login-btn"></a>';
                 } 
             ?>
+
         </div>
     </header>
 

@@ -207,7 +207,7 @@ if (isset($_POST['sub'])) {
         </form>
         <br />
         <br />
-        <a href="home.php" class="link">HOME</a>
+        <a href="../ahome.php" class="link">HOME</a>
     </div>
 </body>
 
